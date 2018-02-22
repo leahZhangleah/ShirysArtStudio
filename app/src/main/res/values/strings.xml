@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ShirysArtStudio</string>
+    <string name="studio_name">Shiry\'s Art Studio</string>
+    <string name="studio_description">For everyone who likes painting. All tools and materials available.</string>
+    <string name="open_time">Sat &amp; Sun 10:00-20:00</string>
+    <string name="phone">18616762436</string>
+    <string name="email">nevermind1@sohu.com</string>
+    <string name="address">Room 101, No.11 bldg, Lane 63, Daxue Rd. Yangpu district, Shanghai</string>
+    <string name="api_key">AIzaSyD_QHeDeM-H5kW3VWrvqCiu0za3PTfG6wk</string>
+</resources>
