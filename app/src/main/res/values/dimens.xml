@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_btw_component">10dp</dimen>
+    <dimen name="space_to_board">16dp</dimen>
+    <dimen name="viewpager_height">180dp</dimen>
+    <dimen name="business_name_text_size">30sp</dimen>
+</resources>

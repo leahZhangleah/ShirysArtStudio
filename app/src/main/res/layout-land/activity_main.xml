@@ -16,7 +16,7 @@
         <android.support.v4.view.ViewPager
             android:id="@+id/photo_gallery"
             android:layout_width="match_parent"
-            android:layout_height="180dp" />
+            android:layout_height="@dimen/viewpager_height" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -27,19 +27,19 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginLeft="@dimen/space_to_board"
+                android:layout_marginTop="@dimen/space_btw_component"
                 android:text="@string/studio_name"
                 android:textColor="@color/colorPrimaryText"
-                android:textSize="30sp" />
+                android:textSize="@dimen/business_name_text_size" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginBottom="@dimen/space_btw_component"
+                android:layout_marginLeft="@dimen/space_to_board"
+                android:layout_marginRight="@dimen/space_to_board"
+                android:layout_marginTop="@dimen/space_btw_component"
                 android:text="@string/studio_description"
                 android:textColor="@color/colorPrimaryText" />
         </LinearLayout>
@@ -48,8 +48,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginLeft="@dimen/space_to_board"
+            android:layout_marginTop="@dimen/space_to_board"
             android:orientation="horizontal">
 
             <ImageView
@@ -60,7 +60,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="16dp"
+                android:layout_marginLeft="@dimen/space_to_board"
                 android:gravity="center"
                 android:text="@string/open_time" />
         </LinearLayout>
@@ -69,8 +69,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/space_to_board"
+            android:layout_marginTop="@dimen/space_btw_component"
             android:orientation="horizontal">
 
             <ImageView
@@ -82,7 +82,7 @@
                 android:id="@+id/phone_view"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="16dp"
+                android:layout_marginLeft="@dimen/space_to_board"
                 android:gravity="center"
                 android:text="@string/phone" />
         </LinearLayout>
@@ -90,8 +90,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/space_to_board"
+            android:layout_marginTop="@dimen/space_btw_component"
             android:orientation="horizontal">
 
             <ImageView
@@ -103,7 +103,7 @@
                 android:id="@+id/email_view"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="16dp"
+                android:layout_marginLeft="@dimen/space_to_board"
                 android:clickable="true"
                 android:gravity="center"
                 android:text="@string/email" />
@@ -112,8 +112,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/space_to_board"
+            android:layout_marginTop="@dimen/space_btw_component"
             android:orientation="horizontal">
 
             <ImageView
@@ -124,8 +124,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
+                android:layout_marginLeft="@dimen/space_to_board"
+                android:layout_marginRight="@dimen/space_to_board"
                 android:text="@string/address" />
         </LinearLayout>
 
@@ -135,7 +135,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="@dimen/space_btw_component" />
 
     </LinearLayout>
 </ScrollView>
