@@ -3,6 +3,9 @@ This is most fundamental part of Shirys Art Studio app.
 I apply viewpager with images in the beginning part.
 and embed in google map with marker of art studio.
 
+
+<img src="shirysartstudio1.png" width = "120" height="200"/>
+
 Future app for Shiry:
 
 1 The most important is to have live time booking system, which will show time slots available for students to book.
@@ -16,5 +19,6 @@ It will be available for booking before certain date. It will also limit the num
 
 5 There can also be one section where Shiry can post certain work to sell
 6 embed chat function
+
 
 
